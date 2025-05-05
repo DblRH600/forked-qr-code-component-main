@@ -16,16 +16,15 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./qr_code_femc.jpg)
+![](./forked_qr_code_femc.jpg)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- Bootstrap
 - Flexbox
-- CSS Grid
 
 ### What I learned
 
@@ -34,48 +33,34 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-<section class="card-content">
-      <img class="card-qr-code" src="images/image-qr-code.png" alt="qr-code for Frontend Mentor."/>
-    <div class="card-qr-comments">
-      <p class="card-main-comment">
-        Improve your front-end skills by building projects
-      </p>
-      <p class="card-secondary-comment">
-        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-      </p>
-    </div>
-  </section>
-```
-```css
-.card-main-comment {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 120%;
-  letter-spacing: 0px;
-  text-align: center;
-  color: #1f314f;
-}
-.card-secondary-comment {
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 140%;
-  letter-spacing: 0.2px;
-  text-align: center;
-  color: #68778d;
-}
-.card-secondary-comment:hover {
-  background-color: #68778d;
-  color: hsl(0, 0%, 100%);
-  backdrop-filter: blur;
-}
+<section
+      class="card mt-5 pt-3 px-3 pb-4 border border-success-4 rounded-3"
+      style="width: 20rem"
+    >
+      <img
+        class="rounded-3"
+        src="images/image-qr-code.png"
+        alt="qr-code for Frontend Mentor."
+      />
+      <div class="d-flex flex-column align-items-center px-1 gap-1 mt-4">
+        <p class="fs-4 fw-bold text-center">
+          Improve your front-end skills by building projects
+        </p>
+        <p class="fs-6 fw-normal text-center">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+</section>
 ```
 
 ### Continued development
 
 I learned how to utilize figma to develop wireframes and utilize the developer tools to understand and structure the html and css code.
 I need to do continued research to understand how/when to use flex elements vs grid elements; and how to implement media queries to adapt to screen sizes.
+I need to develop a better undestanding on the use of media queries and how to implement them when using bootstrap.
 
 ### Useful resources
 
-- [Video: Figma Tutorial: Device Frames and Scrolling](https://www.youtube.com/watch?v=ST6DOO11zuA) - While in an indirect relation to the challenge, this tutrial helped me to gain a deeper understanding of Frames, Components, and Prototyping in figma.
+- [Bootstrap-Bcakground](https://getbootstrap.com/docs/5.3/utilities/background/) - While in an indirect relation to the challenge, this tutrial helped me to gain a deeper understanding of Frames, Components, and Prototyping in figma.
 
