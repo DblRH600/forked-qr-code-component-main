@@ -21,33 +21,52 @@
       href="./images/favicon-32x32.png"
     />
     <!-- <link rel="stylesheet" href="style.css"/> -->
-    <!-- <link
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <title>Frontend Mentor | QR code component</title>
   </head>
-  <body class="h-[960px] w-[1440px] flex flex-col justify-center items-center bg-[#d5e1ef]">
-    <section class="flex flex-col gap-6 bg-white px-4 pt-4 pb-10 rounded-[20px]">
+  <body class="
+      container-lg 
+      d-flex flex-column justify-content-center align-items-center 
+      bg-secondary-subtle
+      "
+    >
+    <section class="
+      card mt-5 pt-2 px-2 pb-4 
+      border border-success-4 rounded-3
+      " 
+      style="width: 20rem"
+      >
       <img
-        class="card-qr-code"
+        class="rounded-3"
         src="images/image-qr-code.png"
         alt="qr-code for Frontend Mentor."
       />
-      <div class="card-qr-comments">
-        <p class="card-main-comment">
+      <div class="
+        d-flex flex-column align-items-center
+        px-2 gap-1 mt-4
+        
+        ">
+        <p class="
+          fs-4 fw-bold
+          text-center
+          ">
           Improve your front-end skills by building projects
         </p>
-        <p class="card-secondary-comment">
+        <p class="
+          fs-6 fw-normal
+          text-center">
           Scan the QR code to visit Frontend Mentor and take your coding skills
           to the next level
         </p>
       </div>
     </section>
 
-    <div class="attribution">
+    <div class="attribution mt-5">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
